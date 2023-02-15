@@ -44,7 +44,7 @@ const Pat = () => {
                         <img class="article__image margin-top" src={pat1} alt="Prto" />
                     </div>
                     <div class="wrapper">
-                        <h2 class="heading__article heading__article-side">В РАМКАХ ОЦЕНКИ ТРЕБУЕТСЯ</h2>
+                        <h2 class="heading__article heading__article-side">В РАМКАХ ОЦЕНКИ ТРЕБУЕТСЯ ТРЕБУЕТСЯ ТРЕБУЕТСЯ</h2>
                     </div>
                     <section class="article__container">
                         <div class="wrapper">
