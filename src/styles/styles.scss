@@ -542,11 +542,12 @@ label {
         }
         &-priemka {
             grid-template-columns: repeat(1, 1fr);
-            margin-bottom: 50px;
+            margin-bottom: -100px;
             width: 100%;
             @media screen and (max-width: 450px) {
                 font-size: 3vw;
                 padding: 10px;
+                margin-bottom: 0;
             }
         }
     }
@@ -607,6 +608,10 @@ label {
     @media screen and (max-width: 576px) {
         margin-bottom: 15px;
     }
+    &-no-border {
+        border-top: none;
+        padding-top: 0;
+    }
     &-index {
         border-top: 0;
         padding-top: 0;
@@ -627,11 +632,37 @@ label {
             row-gap: 30px;
             margin-top: 45px;
         }
+        &-three {
+            display: grid;
+            gap: 30px;
+            row-gap: 50px;
+            grid-template-columns: repeat(3, 1fr);
+            margin-bottom: -50px;
+            @media screen and (max-width: 576px) {
+                margin-bottom: 0;
+            }
+        }
     }
     &__item {
         display: block;
         object-fit: contain;
         height: 23px;
+        &-tall {
+            height: 50px;
+            margin: auto;
+            @media screen and (max-width: 700px) {
+                height: 35px;
+            }
+            @media screen and (max-width: 500px) {
+                height: 25px;
+            }
+            @media screen and (max-width: 350px) {
+                height: 17px;
+            }
+            @media screen and (max-width: 270px) {
+                height: 15px;
+            }
+        }
         &-last {
             grid-column-start: span 2;
         }

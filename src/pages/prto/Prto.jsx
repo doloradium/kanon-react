@@ -67,7 +67,7 @@ const Prto = () => {
                         </div>
                     </section>
                     <div class="wrapper">
-                        <div class="header__categories header__categories-prto">
+                        <div class="header__categories header__categories-priemka">
                             <Link to="/prto/sez" class="header__item">САНИТАРНО ЭПИДЕМИОЛОГИЧЕСКОЕ ЗАКЛЮЧЕНИЕ ПРТО В МОСКВЕ И МО В КОРОТКИЕ СРОКИ</Link>
                         </div>
                     </div>

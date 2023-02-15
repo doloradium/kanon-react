@@ -13,9 +13,10 @@ import radio5 from "../../img/radio5.jpg"
 
 import mgu from "../../img/mgu.png"
 import mosgaz from "../../img/mosgaz.svg"
-import medsi from "../../img/medsi.jpeg"
+import medsi from "../../img/medsi.png"
 import metro from "../../img/msk-metro.png"
 import rogachev from "../../img/rogachev.png"
+import botkin from "../../img/botkin.jpg"
 
 const Radio = () => {
     return (
@@ -98,20 +99,19 @@ const Radio = () => {
                             </div>
                         </div>
                     </section>
-                    <section class="companies">
+                    <div class="wrapper">
+                        <section class="companies companies-no-border">
                             <h4 class="heading__article heading__article-side">МЫ СДЕЛАЛИ ЭТО ДЛЯ</h4>
-                            <div class="companies__list">
-                                <img class="companies__item" src={mgu} alt="mgu" />
-                                <img class="companies__item" src={medsi} alt="medsi" />
-                                <img class="companies__item" src={metro} alt="metro" />
-                                <img class="companies__item" src={mosgaz} alt="mosgaz" />
-                                <img class="companies__item" src={rogachev} alt="rogachev" />
+                            <div class="companies__list companies__list-three">
+                                <img class="companies__item-tall" src={mgu} alt="mgu" />
+                                <img class="companies__item-tall" src={medsi} alt="medsi" />
+                                <img class="companies__item-tall" src={metro} alt="metro" />
+                                <img class="companies__item-tall" src={mosgaz} alt="mosgaz" />
+                                <img class="companies__item-tall" src={rogachev} alt="rogachev" />
+                                <img class="companies__item-tall" src={botkin} alt="botkin" />
                             </div>
                         </section>
-                    <div class="wrapper">
                         <h4 class="heading__article heading__article-side">НАШИ УСЛУГИ В ДАННОЙ ОБЛАСТИ</h4>
-                    </div>
-                    <div class="wrapper">
                         <div class="header__categories header__categories-prto">
                             <Link to="/radio/sez" class="header__item">ПОЛУЧЕНИЕ СЭЗ ДЛЯ ИСТОЧНИКОВ ИОНИИРУЮЩЕГО ИЗЛУЧЕНИЯ (СЭЗ ДЛЯ ИИИ)</Link>
                             <Link to="/radio/idk" class="header__item">ОТЧЕТНОСТЬ И ИНДИВИДУАЛЬНЫЙ ДОЗИМЕТРИЧЕСКИЙ КОНТРОЛЬ (ИДК)</Link>
